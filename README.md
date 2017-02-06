@@ -5,5 +5,8 @@ This is a small Java coding challenge that we normally ask all candidates to com
 Please setup a local database and populate it using [database-postgres.sql](database-postgres.sql) script. Please feel free to use a database vendor of your choice; [database-postgres.sql](database-postgres.sql) defines a single table with a little bit of sample data. What we are looking from you is a simple deployable Java Web application that displays content of the `clinical_trial` table on a Web page.
 
 Here are some additional implementation notes:
-* Use a build tool of your choice -- Maven, Ant, Gradle -- or no build tool at all, if that's more convenient for you (perhaps you'd want to use your IDE's capabilities to generate a project structure). If using Maven, [maven-archetype-webapp](https://maven.apache.org/plugins-archives/maven-archetype-plugin-1.0-alpha-7/examples/webapp.html) might be helpful. 
+* Use a build tool of your choice -- Maven, Ant, Gradle -- or no build tool at all, if that's more convenient for you (perhaps you'd want to use your IDE's capabilities to generate a project structure). If using Maven, [maven-archetype-webapp](https://maven.apache.org/plugins-archives/maven-archetype-plugin-1.0-alpha-7/examples/webapp.html) might be helpful.
+* Please select an application architecture you're comfortable with. For example, it could be a "classic" Java EE application, or a Spring app, or a plain Web app backed by servlets. 
+* Obviously your application would need some kind of a data access tier. [Hibernate](http://hibernate.org/) would be best (simply because it is being used in [CTRP](https://www.cancer.gov/about-nci/organization/ccct/ctrp), but _absolutely_ not required: iBatis, EJB, Spring JDBC Template, or even plain JDBC would do.
+
 
