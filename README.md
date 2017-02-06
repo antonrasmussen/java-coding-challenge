@@ -9,6 +9,6 @@ Here are some additional implementation notes:
 * Please select an application architecture you're comfortable with. For example, it could be a "classic" Java EE application, or a Spring app, or a plain Web app backed by servlets. 
 * Obviously your application would need some kind of a data access tier. [Hibernate](http://hibernate.org/) would be best (simply because it is being used in [CTRP](https://www.cancer.gov/about-nci/organization/ccct/ctrp), but not required: iBatis, EJB, Spring JDBC Template, or even plain JDBC would do.
 * Ideally, your application would have a REST service that exposes JSON with clinical trial data to the Web browser. However, an approach where you'd render a complete HTML page in a JSP is also acceptable.
-* Ideally, your Web page would utilize one of the popular 
+* Ideally, your Web page would utilize one of the popular Data Table components you're comfortable with (for example, [JQuery Data Tables](https://datatables.net/). Or, if you prefer, you could render HTML table markup directly in your JSP.
 
 
