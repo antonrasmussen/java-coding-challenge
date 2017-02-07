@@ -10,9 +10,9 @@ Here are some additional implementation notes:
 * Obviously your application would need some kind of data access tier. [Hibernate](http://hibernate.org/) would be best (simply because it is being used in [CTRP](https://www.cancer.gov/about-nci/organization/ccct/ctrp), but not required: iBatis, EJB, Spring JDBC Template, or even plain JDBC would do.
 * Ideally, your application would have a REST service that exposes JSON with clinical trials data to the Web browser. However, an approach where you'd render a complete HTML page in a JSP is also acceptable.
 * Ideally, your Web page would utilize one of the popular Data Table components you're comfortable with (for example, [JQuery Data Tables](https://datatables.net/). Or, if you prefer, you could render HTML table markup directly in your JSP.
-* Once done, please send us a link to your source code and a deployable WAR or EAR file that could be dropped into Tomcat or JBoss.
+* Once done, please send us a link to your source code and to a deployable WAR or EAR file that could be dropped into Tomcat or JBoss.
 
-We do understand your time is valuable and tried to keep the scope of this challenge to 1-2 hours. The goal is to see your approach to the problem and your coding style rather than delivering a specific set of features.
+We do understand your time is valuable and therefore tried to keep the scope of this challenge to 1-2 hours. The goal is to see your approach to the problem and your coding style rather than delivering a specific set of features.
 
 Thank you for your interest in SemanticBits!
 
