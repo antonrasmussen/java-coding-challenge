@@ -12,4 +12,8 @@ Here are some additional implementation notes:
 * Ideally, your Web page would utilize one of the popular Data Table components you're comfortable with (for example, [JQuery Data Tables](https://datatables.net/). Or, if you prefer, you could render HTML table markup directly in your JSP.
 * Once done, please send us a link to your source code and a deployable WAR or EAR file that could be dropped into Tomcat or JBoss.
 
+We do understand your time is valuable and tried to keep the scope of this challenge to 1-2 hours. The goal is to see your approach to the problem and your coding style rather than delivering a specific set of features.
+
+Thank you for your interest in SemanticBits!
+
 
